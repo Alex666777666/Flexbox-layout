@@ -13,6 +13,7 @@
   margin: 0;
   display: flex;
   list-style-type: none;
+  margin-left: 16px;
 }
 .navigation_item {
   margin-right: 10px;
@@ -41,4 +42,16 @@
   background-color: gray;
   justify-content: center;
   align-items: center;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news_item {
+  margin: 16px;
+  display: flex;
+  height: 40px;
+  list-style-type: none;
+  flex-direction: column;
 }
