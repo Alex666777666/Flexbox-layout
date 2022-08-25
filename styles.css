@@ -1,57 +1,70 @@
-.header {
-  height: 40px;
-  background-color: yellow;
-  align-items: center;
-  display: flex;
-}
-.footer {
-  height: 40px;
-  background-color: green;
-  display: flex;
-}
-.navigation {
-  margin: 0;
-  display: flex;
-  list-style-type: none;
-  margin-left: 16px;
-}
-.navigation_item {
-  margin-right: 10px;
-}
-.footer_text {
-  margin: auto;
-}
-.page {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-.content {
-  flex-grow: 1;
+
+header {
+  height: 40px;
+  background-color: yellow;
   display: flex;
+  align-items: center;
 }
-.dashboard {
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation li {
+  margin-left: 16px;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+section {
   display: flex;
   flex-grow: 1;
   background-color: pink;
-  justify-content: center;
-  align-items: center;
 }
-.news {
-  width: 200px;
-  background-color: gray;
-  justify-content: center;
-  align-items: center;
+
+section h2 {
+  margin: auto;
 }
-.label {
+
+aside {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: grey;
+  width: 200px;
+  flex-direction: column;
 }
-.news_item {
+
+aside h2 {
+  text-align: center;
   margin: 16px;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li {
+  list-style-type: none;
+  margin: 16px;
+}
+
+footer {
   display: flex;
   height: 40px;
-  list-style-type: none;
-  flex-direction: column;
+  background-color: green;
+}
+
+span {
+  margin: auto;
 }
